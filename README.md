@@ -32,10 +32,11 @@ After the run, open the HTML report at [reports/cucumber-report.html](reports/cu
 ## Project structure
 
 - [features](features) — Cucumber feature files (e.g. [features/user.feature](features/user.feature))
-- [step-definitions](step-definitions) — Step implementations (e.g. [step-definitions/user.steps.js](step-definitions/user.steps.js))
+- [step-definitions](step-definitions) — Step implementations (e.g. [features/step-definitions/user.steps.js](features/step-definitions/user.steps.js))
 - [src/api](src/api) — API client and endpoint helpers (e.g. [src/api/user.api.js](src/api/user.api.js), [src/api/apiConfig.js](src/api/apiConfig.js))
-- [config](config) — Test configuration (e.g. [config/config.js](config/config.js))
+- [src/config](config) — Test configuration (e.g. [src/config/config.js](src/config/config.js))
 - [src/utils](src/utils) — Helpers (e.g. [src/utils/apiClient.js](src/utils/apiClient.js), [src/utils/logger.js](src/utils/logger.js))
+- [src/hooks](src/hooks) — Helpers (e.g. [src/hooks/hooks.js](src/utils/apiClient.js)
 - [reports](reports) — Generated test reports (HTML)
 
 ## Adding tests
