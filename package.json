@@ -1,0 +1,20 @@
+{
+  "name": "apipoc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cucumber.js",
+   "scripts": {
+  "test": "cucumber-js --require src/hooks/hooks.js --require features/step-definitions/*.js"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@cucumber/cucumber": "^12.6.0",
+    "@playwright/test": "^1.58.2",
+    "axios": "^1.13.5",
+    "chai": "^6.2.2",
+    "dotenv": "^17.3.1"
+  }
+}
